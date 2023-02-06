@@ -1,0 +1,24 @@
+{
+  "donasi": [
+    {
+      "id": 1,
+      "judul": "Cianjur Kembali Berduka",
+      "tanggal1": "01-03-2023",
+      "tanggal2": "03-01-2023",
+      "terkumpul": 500000,
+      "target": 500000,
+      "isi": "Gempa hari ini, Senin 21 November 2022, terjadi di Kabupaten Cianjur, Jawa Barat, pukul 13.21 WIB. Gempa dengan magnitudo 5,6 M ini berlokasi didarat dengan kedalaman 10 kilometer. Berdasarkan keterangan Badan Meteorologi, Klimatologi, dan Geofisika (BMKG), pusat gempa terletak 10 kilometer barat daya Kabupaten Cianjur. Sejumlah warga di beberapa daerah mengaku merasakan getaran kuat dari gempa ini. Gempa Cianjur M 5,6 terasa hingga Jakarta. Gempa berpusat di Kabupaten Cianjur hari ini",
+      "img": "https://cdn.antaranews.com/cache/730x487/2022/11/27/antarafoto-sepekan-bencana-gempa-cianjur-271122-na-5.jpg"
+    },
+    {
+      "judul": "banjir bandang manado",
+      "tanggal1": "01-03-2023",
+      "tanggal2": "02-28-2023",
+      "terkumpul": "20000",
+      "target": "500000",
+      "isi": "Wakil Bupati (Wabup) Garut Helmi Budiman meninjau kondisi rumah warga terdampak bencana gempa bumi Maginitudo 4,3,  di Kecamatan Pasirwangi, Kabupaten Garut, Sabtu (4/2/2023).",
+      "img": "https://akcdn.detik.net.id/community/media/visual/2023/01/28/banjir-bandang-manado-2023-sebab-jumlah-korban-hingga-data-kerusakan-1_169.jpeg?w=700&q=90",
+      "id": 2
+    }
+  ]
+}

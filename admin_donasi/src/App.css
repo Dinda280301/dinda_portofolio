@@ -1,0 +1,13 @@
+.page-holder {
+    min-height: 100vh;
+  }
+  
+  .bg-cover {
+    background-size: cover !important;
+  }
+
+  .causes-one {
+    position: relative;
+    display: block;
+    padding: 100px 0 140px;
+}
