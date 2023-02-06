@@ -1,0 +1,47 @@
+{
+  "bp": [
+    {
+      "bp": {
+        "bp": "2000000"
+      },
+      "id": 1
+    }
+  ],
+  "data": [
+    {
+      "name": "Diggie",
+      "cost": "24000",
+      "category": "Support",
+      "img": "https://cdn.vcgamers.com/news/wp-content/uploads/2022/05/Hero-Diggie.jpg",
+      "id": 3
+    },
+    {
+      "name": "Hanabi",
+      "cost": "32000",
+      "category": "Marksman",
+      "img": "https://gamedaim.com/wp-content/uploads/2022/05/7-Daftar-Skin-Hanabi-Mobile-Legends-Keren-Beserta-Artinya.jpg",
+      "id": 4
+    },
+    {
+      "name": "Gloo",
+      "cost": "32000",
+      "category": "Tank",
+      "img": "https://dailyspin.id/wp-content/uploads/2021/04/gloo-mobile-legends.jpg",
+      "id": 6
+    },
+    {
+      "name": "Freya",
+      "cost": "32000",
+      "category": "Fighter",
+      "img": "https://cdn.upstation.asia/wp-content/uploads/2020/01/27112953/skin-seksi-mobile-legends-2-1024x683.jpg",
+      "id": 7
+    },
+    {
+      "name": "harith",
+      "cost": "20000",
+      "category": "Mage",
+      "img": "https://cdn.vcgamers.com/news/wp-content/uploads/2022/01/Harith-Hero-Mage-MLBB-oke-4.jpg",
+      "id": 8
+    }
+  ]
+}
