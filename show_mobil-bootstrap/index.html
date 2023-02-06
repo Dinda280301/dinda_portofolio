@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>JS</title>
+</head>
+<body>
+    <h1 class="font-serif text-2xl text-center font-semibold text-red-600">Selama datang di Honda</h1>
+    <h2 class="text-center">Lihat beberapa pilihan mobil</h2> 
+    <div class="container mx-auto">
+       <div class="hrv">
+          <h3 class="text-xl p-2 text-center mx-32 mt-3 rounded-full bg-red-500 text-white">HONDA HRV</h3>
+          <p class="text-center mt-2" id="teks">Tampak Depan Mobil</p>
+          <div class="flex mx-auto justify-center">
+            <img class="content-center" id="image" src="https://asset.honda-indonesia.com/variants/images/tj16tSn1wcNoOfxRxpavivIpDzQsRgkrfKFMihIO.png" style="width:300px">
+          </div>
+          <p class="font-bold">Lihat dari</p>
+          <button class="py-2 px-5 bg-red-500 rounded-xl font-medium text-white" id="dpn">depan</button>
+          <button class="py-2 px-5 bg-red-500 rounded-xl font-medium text-white" id="blkg">belakang</button>
+          <button class="py-2 px-5 bg-red-500 rounded-xl font-medium text-white" id="dlm">dalam</button>
+          <button class="py-2 px-5 bg-red-500 rounded-xl font-medium text-white" id="msn">mesin</button>
+          
+          <p class="mt-10 font-bold">Pilihan mobil lainnya</p>
+          <button class="mobil py-2 px-5 border border-red-500 rounded-xl font-medium text-red-500" id="crv" data-show=".crv">CRV</button>
+        </div>
+  
+        <div class="crv hidden">
+          <h3 class="text-xl p-2 text-center mx-32 mt-3 rounded-full bg-red-500 text-white">HONDA CRV</h3>
+          <p class="text-center mt-2" id="tekscrv">Tampak Depan Mobil</p>
+          <div class="flex mx-auto justify-center">
+            <img class="content-center" id="imagecrv" src="https://www.honda-indonesia.com/uploads/images/models/variants/type15p__1613383038986.png" style="width:300px">
+          </div>
+          <p class="font-bold">Lihat dari</p>
+          <button class="py-2 px-5 bg-red-500 rounded-xl font-medium text-white" id="dpnc">depan</button>
+          <button class="py-2 px-5 bg-red-500 rounded-xl font-medium text-white" id="blkgc">belakang</button>
+          <button class="py-2 px-5 bg-red-500 rounded-xl font-medium text-white" id="dlmc">dalam</button>
+          <button class="py-2 px-5 bg-red-500 rounded-xl font-medium text-white" id="msnc">mesin</button>
+        
+          <p class="mt-10 font-bold">Pilihan mobil lainnya</p>
+          <button class="mobil py-2 px-5 border border-red-500 rounded-xl font-medium text-red-500" id="hrv" data-show=".hrv">HRV</button>
+        </div>
+    </div>
+    <div class="container mx-auto">
+      <p class="mt-10 font-bold">Pilihan mobil lainnya</p>
+      <button class="py-2 px-5 border border-red-500 rounded-xl font-medium text-red-500" onclick="Showroom.suka()">like</button>
+      <button class="py-2 px-5 border border-red-500 rounded-xl font-medium text-red-500" onclick="Showroom.buy()">Buy</button>
+      <button class="add py-2 px-5 border border-red-500 rounded-xl font-medium text-red-500" onclick="tambah()">tambah</button>
+      <button class="py-2 px-5 border border-red-500 rounded-xl font-medium text-red-500" onclick="Showroom.hi()">Hai</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

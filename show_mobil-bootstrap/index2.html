@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-advance</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="Showroom.open()">open</button>
+    <button onclick="Showroom.close()">close it</button>
+    <button onclick="Showroom.sambutan()">hi</button>
+    <script>
+        function sambut () {
+			alert('selamat datang')
+		}
+
+        const Showroom = {
+			merek: 'Honda',
+		    quantity: 10,
+			variasi: [
+            {
+				nama: 'crv',
+				quantity: 4,
+				capacity: 7
+			},
+            {
+				nama: 'hrv',
+				quantity: 2,
+				capacity: 5
+			}],
+            open: function () {
+				alert('Showroom Buka')
+			},
+			close: () => alert('Showroom Tutup'),
+			show (){
+                    return this.merek + " Merk Honda memiliki " + this.variasi[0].nama + " dan " +this.variasi[1].nama + " dan " +this.variasi[2].nama;
+			},
+            ref (){
+                    return this.merek + " Merk Honda memiliki " + this.variasi[0].nama + " dan " +this.variasi[1].nama + " dan " +this.variasi[2].nama;
+			},
+            sambutan:sambut
+        }
+        
+        console.log(Showroom.variasi)
+        let mobil = {
+                "nama": "brv",
+                "quantity": "4",
+                "capacity": 2
+            }
+        Showroom.variasi.push(mobil)
+        console.log(Showroom.variasi)
+        document.getElementById("demo").innerHTML = Showroom.show();
+
+
+
+    </script>
+    
+</body>
+</html>
