@@ -1,0 +1,137 @@
+body{
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.topnav{
+    justify-content: space-between;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.topnav a{
+    color:black;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.topnav img{
+    width: 80px;
+}
+.top{
+    height: 200px;
+    width:50%; 
+}
+.left{
+    left:0;
+    display: inline-block;
+}
+.topnav_kanan{
+    margin-top: 20px;
+}
+input[type="text"] {
+    text-align: right;
+  }
+.topnav a.sign{
+    position:relative;
+    padding:10px 25px;
+    border:1px solid black;
+    background-color:black;
+    color:white;
+    border-radius: 20px;
+}
+.right{
+    right:0;
+    display: inline-block;
+    align-items: center;
+    padding-top: 6%;
+    padding-right: 5%;
+}
+.pengurung{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.pengurung h1{
+    font-size: 50px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+.pengurung p{
+    font-size: 18px;
+    color: darkgray;
+}
+form {
+    width:500px;
+    margin:50px auto;
+}
+.mail {
+    padding:10px 70px;
+    background:rgba(255, 255, 255, 0.2);
+    border:1px solid #2e2e2e;
+    border-radius: 20px;
+}
+.button {
+    position:relative;
+    padding:10px 25px;
+    left:-115px;
+    border:1px solid black;
+    background-color:black;
+    color:#fafafa;
+    border-radius: 20px;
+}
+.category a{
+    color:black;
+    padding: 14px 11px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.news_kanan{
+    position: relative;
+    margin-right: 100px;
+}
+.news_kanan h3{
+    text-decoration: underline;
+}
+.news_kanan a,.news_kiri a{
+    text-decoration: none;
+    color: black;
+}
+.news_kiri{
+    position: relative;
+}
+.news_kiri h3{
+    text-decoration: underline;
+}
+.news_kanan img{
+    width: 480px;
+}
+.news_kiri img{
+    width:480px;
+}
+.writer {
+    height: 80px;
+    width: 480px;
+    background-color: white;
+    position: absolute;
+    top:200px;
+    opacity: 0.8;
+    justify-content: space-between;
+    display: flex;
+}
+.writer p{
+    margin-left: 20px;
+    margin-right: 20px;
+    color:darkgray;
+    font-weight: bold;
+}
+.news p{
+    color:darkgrey;
+}
+
